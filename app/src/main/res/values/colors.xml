@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4566ae</color>
+    <color name="colorPrimaryDark">#3b5998</color>
+    <color name="colorAccent">#4a6fbc</color>
+
+
+    <color name="background_welcome">#a8abae</color>
+    <color name="background_spp">#ffffff</color>
+    <color name="spinner_back">#dadada</color>
+
+    <color name="textColor">#3b5998</color>
+    <color name="button_text_color">#fff</color>
+    <color name="btn_back">#3b5998</color>
+
+
+    <color name="even_element">#ececec</color>
+    <color name="odd_element">#517acf</color>
+
+    <color name="error">#ff483b</color>
+    <color name="natural">#000</color>
+
+
+</resources>

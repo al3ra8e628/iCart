@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="appPackage.al3ra8e.icart.TransactionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/btn_back"
+        android:layout_height="35dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="0.4"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:text="department"
+            android:textColor="@color/button_text_color"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="item"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="0.4"
+            android:textColor="@color/button_text_color"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:text="times"
+            android:layout_weight="0.4"
+            android:textColor="@color/button_text_color"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/transactionsContainer"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

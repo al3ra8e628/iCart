@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appPackage.al3ra8e.icart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="appPackage.al3ra8e.icart.connection.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="appPackage.al3ra8e.icart.Welcome"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="appPackage.al3ra8e.icart.LogIn"
+            android:screenOrientation="portrait"
+            android:theme="@style/myStyle" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/myStyle" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.CreateAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.DialogWhenLarge" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myStyle" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.RankedItems"
+            android:screenOrientation="portrait"
+            android:theme="@style/myStyle" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.TransactionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.MapActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/myStyle" />
+        <activity android:name="appPackage.al3ra8e.icart.BeforeShoping" />
+        <activity
+            android:name="appPackage.al3ra8e.icart.AboutUs"
+            android:screenOrientation="portrait" />
+        <activity android:name="appPackage.al3ra8e.icart.yabbaDabbaDoo"></activity>
+    </application>
+
+</manifest>
